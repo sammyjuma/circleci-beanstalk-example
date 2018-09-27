@@ -26,7 +26,7 @@ jobs:
       - run:
           name: Deploy to EB if branch is Master
           command: |
-             eb use jumaapp-dev --profile eb-cli
+             eb use circleci-beanstalk-example --profile eb-cli
              eb deploy -v --staged --profile eb-cli
 
 workflows:
