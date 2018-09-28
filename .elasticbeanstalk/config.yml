@@ -1,13 +1,13 @@
 branch-defaults:
   master:
-    environment: circleci-beanstalk-example-dev
+    environment: jumaapp-dev
     group_suffix: null
 global:
-  application_name: circleci-beanstalk-example
+  application_name: jumaapp
   branch: null
-  default_ec2_keyname: magic-secret-key-goes-here
+  default_ec2_keyname: hipchatkey.pem
   default_platform: Node.js
-  default_region: eu-central-1
+  default_region: us-west-2
   include_git_submodules: true
   instance_profile: null
   platform_name: null
